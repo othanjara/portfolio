@@ -42,7 +42,7 @@ export default function Hero() {
             <div className="absolute -bottom-3 -right-3 w-full h-full border border-accent/50" />
             <div className="relative w-72 h-80 overflow-hidden bg-paper">
               <Image
-                src="/jonathan.png"
+                src="/portfolio/jonathan.png"
                 alt="Jonathan Cruz Jara"
                 fill
                 className="object-cover object-top mix-blend-luminosity hover:mix-blend-normal transition-all duration-500"
