@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import ResumeButton from '@/components/ResumeButton'
 
 export default function Hero() {
   return (
@@ -19,7 +19,7 @@ export default function Hero() {
             Mid Developer · Technical Writer · QA Specialist.<br />
             Building reliable digital products with care.
           </p>
-          <div className="flex gap-4 mt-10 animate-fade-up delay-400">
+          <div className="flex flex-wrap gap-4 mt-10 animate-fade-up delay-400">
             <a
               href="#experience"
               className="inline-block bg-ink text-paper font-body text-sm px-6 py-3 hover:bg-accent hover:text-ink transition-colors duration-300"
@@ -32,24 +32,22 @@ export default function Hero() {
             >
               Get in Touch
             </a>
+            <ResumeButton />
           </div>
         </div>
 
         {/* Photo side */}
         <div className="flex justify-center md:justify-end">
           <div className="relative">
-            {/* Offset decorative border */}
             <div className="absolute -bottom-3 -right-3 w-full h-full border border-accent/50" />
             <div className="relative w-72 h-80 overflow-hidden bg-paper">
-              <Image
-                src="/portfolio/jonathan.png"
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="jonathan.png"
                 alt="Jonathan Cruz Jara"
-                fill
-                className="object-cover object-top mix-blend-luminosity hover:mix-blend-normal transition-all duration-500"
-                priority
+                className="w-full h-full object-cover object-top mix-blend-luminosity hover:mix-blend-normal transition-all duration-500"
               />
             </div>
-            {/* Info card */}
             <div className="absolute -bottom-6 -left-6 bg-ink text-paper px-5 py-3">
               <p className="font-mono text-xs text-accent tracking-widest uppercase">Based in</p>
               <p className="font-display text-sm">San Pedro, Laguna</p>
