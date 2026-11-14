@@ -1,22 +1,22 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: 'export',
-  trailingSlash: true,
-  images: {
-    unoptimized: true,
-  },
-}
-
-module.exports = nextConfig
-
+// /** @type {import('next').NextConfig} */
 // const nextConfig = {
 //   output: 'export',
 //   trailingSlash: true,
-//   basePath: '/portfolio',
-//   assetPrefix: '/portfolio/',
 //   images: {
 //     unoptimized: true,
 //   },
 // }
 
 // module.exports = nextConfig
+
+const nextConfig = {
+  output: 'export',
+  trailingSlash: true,
+  basePath: '/portfolio',
+  assetPrefix: '/portfolio/',
+  images: {
+    unoptimized: true,
+  },
+}
+
+module.exports = nextConfig
