@@ -1,23 +1,13 @@
 const projects = [
   {
-    name: 'WRAS Project',
+    name: 'Oracle HCM',
     description:
-      'Internal report and data management system that holds various information and data processes inside the organization.',
+      'Data migration project that helps the company to transfer their data from Cornerstone to Oracle integration.',
   },
   {
-    name: 'Auto Email Recon System',
+    name: 'People Data Connect',
     description:
-      'Email reconciliation system that runs automatically by a Job and distributed internally.',
-  },
-  {
-    name: 'LOOK Project',
-    description:
-      'Part in the application testing and report reconciliation of the LOOK Philippines. New application which also caters beauty products.',
-  },
-  {
-    name: 'PPM (Pick Pack Module) Project',
-    description:
-      'A system that calculates the dimension of items before the actual packaging of products. Part in waybill designing and printing.',
+      'A web-based dashboard that integrates with APIs to display reports, statistical insights, exception counts, and downloadable data exports. It enables the company`s Human Resources team to efficiently monitor employee records, identify data discrepancies and errors, and track issues that require daily review and resolution.',
   },
   {
     name: 'Web Control Center',
@@ -38,6 +28,26 @@ const projects = [
     name: 'POS+',
     description:
       'A POS application system used by Generika stores to sell, make a PO, sales declare, manage item inventory, and generate reports.',
+  },
+  {
+    name: 'WRAS Project',
+    description:
+      'Internal report and data management system that holds various information and data processes inside the organization.',
+  },
+  {
+    name: 'Auto Email Recon System',
+    description:
+      'Email reconciliation system that runs automatically by a Job and distributed internally.',
+  },
+  {
+    name: 'LOOK Project',
+    description:
+      'Part in the application testing and report reconciliation of the LOOK Philippines. New application which also caters beauty products.',
+  },
+  {
+    name: 'PPM (Pick Pack Module) Project',
+    description:
+      'A system that calculates the dimension of items before the actual packaging of products. Part in waybill designing and printing.',
   },
 ]
 

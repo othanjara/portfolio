@@ -23,7 +23,7 @@ export default function About() {
             <p>
               I have a good amount of skills in Photoshop, doing designs for different people and
               organizations as a part-time job. I also have programming knowledge I learned from my
-              work and have experience working in different languages such as HTML, CSS, C# .Net, JS,
+              work and have experience working in different languages such as HTML, CSS, C# .Net, JS, Node JS,
               and SQL programming.
             </p>
             <p>

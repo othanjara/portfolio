@@ -16,7 +16,7 @@ export default function Hero() {
           </h1>
           <div className="w-12 h-px bg-accent mb-6 animate-fade-up delay-200" />
           <p className="font-body text-muted text-lg leading-relaxed max-w-md animate-fade-up delay-300">
-            Mid Developer · Technical Writer · QA Specialist.<br />
+            Mid-Level Full Stack Developer<br />
             Building reliable digital products with care.
           </p>
           <div className="flex flex-wrap gap-4 mt-10 animate-fade-up delay-400">
