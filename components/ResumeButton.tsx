@@ -25,7 +25,7 @@ export default function ResumeButton() {
       {/* Download button */}
       <a
         href="jonathan_jara_resume.pdf"
-        download="Jonathan_Cruz_Jara_Resume.pdf"
+        download="Jonathan_Cruz_Jara_Resume_2026.pdf"
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
         className={`
